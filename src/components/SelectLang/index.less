@@ -1,0 +1,22 @@
+.lang-text {
+  user-select: none;
+  font-family: Helvetica Neue LT Pro, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #393D4B;
+
+  span {
+
+    &.lang-chosen {
+      font-weight: bold;
+      color: #4587F3;
+    }
+
+    &.lang-not-chosen {
+      &:hover {
+        cursor: pointer;
+        color: lighten(#393D4B, 10%);
+      }
+    }
+  }
+}
